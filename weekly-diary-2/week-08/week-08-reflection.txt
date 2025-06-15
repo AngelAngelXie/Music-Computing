@@ -1,0 +1,26 @@
+---
+website: https://comp.anu.edu.au/courses/comp4350/workshops/08-live-coding/
+---
+
+# Week 8 reflection
+
+This piece explores algorithmic music composition using drums, bass, lead, and freaky noises. I took this opportunity to experiment with different Strudel functions and built on top of strudal code from lecture slides to create a piece with variety and structure. 
+
+The drum section uses Euclidean rhythms to distribute hits evenly, while angle brackets introduce polyrhythmic alternation. The .every() function dynamically swaps sounds, adding variety to the beat. I layered acoustic and synthetic sounds like casio and metal to create a textured, evolving groove. 
+
+I created three bass tracks: two sustained acoustic bass using gm_acoustic_bass and one glitchy sine waves. In one of the basses, I used .segment() and .range() to generate melodic fragments. To avoid muddiness, I kept lower octaves sparse and used .delay() to stagger entries. The Ritusen scale provided an exotic, unresolved tonality. 
+
+In my leads, I employs .every() to swap between a simple triangle melody and a complex, nested pattern with kawai synth. 
+
+For the freaky noises, I interleaved the wind, crow, insect, and metal sound sources using .every() and randomized delays. I also created one euclidean-distributed sine waves in the breakdown to create a chaotic yet rhythmic bed. 
+
+![Week 08 Music Diary Strudel Code](figure_2.png){ width=50% }
+
+
+## References
+
+First Notes Strudel. (2025). Strudel. https://strudel.cc/workshop/first-notes/#examples
+
+Samples Strudel. (2025). Strudel. https://strudel.cc/learn/samples/
+
+The New Sound. (2025, January 20). What Is Bass? YouTube. https://www.youtube.com/watch?v=8j5BNJEY25s

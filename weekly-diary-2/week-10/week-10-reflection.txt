@@ -1,0 +1,36 @@
+---
+website: https://comp.anu.edu.au/courses/comp4350/workshops/10-topologies/
+---
+
+# Week 10 reflection
+
+This week, I sketched a minimum working example of my networked performance system using Strudel and JavaScript. The core of the design lies in a server/client model where each performer controls a unique musical layer—beat, bass, or lead. It’s a topology where anyone can initiate a transformation, but everyone must respond.
+
+![LENS performance communication topology design](communication.png){ width=50% }
+
+I tested the client-server communication to be functional, but I am still having trouble integrating Strudel into my JS project. I will head to drop-in sessions for support.
+
+![LENS performance server code snippet](server.png){ width=50% }
+
+![LENS performance client code snippet](client.png){ width=50% }
+
+For now, I am using the Strudel REPL with careful comments to showcase my prototypes. I drew inspiration from how I synchronized our music pieces together in week 9’s diary, which helped me identify some global variables such as tempo, synth parameters, and chord structure. In the final performance, these values can be exchanged across performers through the server. The point of interest in my piece is the use of mood as a global cue. I plan to give options like "melancholy", "joyful", “angry”, etc., to trigger coordinated changes in tempo, harmony, and rhythm across all clients. The piece is inherently open-ended, and its greatest strength is allowing performers to shape emotional flow collaboratively.
+
+![Week 10 Music Diary Strudel Prototype](proto.png){ width=50% }
+
+
+## References
+
+Strudel Blog. (2024, January 22). Strudel.cc. https://strudel.cc/blog/#sliders
+
+MIDI, OSC & MQTT Strudel. (2025). Strudel. https://strudel.cc/learn/input-output/
+
+Pattern Effects Strudel. (2025). Strudel. https://strudel.cc/workshop/pattern-effects/
+
+Recipes Strudel. (2025). Strudel. https://strudel.cc/recipes/recipes/
+
+superdirtspatz. (n.d.). G.T.A. Hoffmann.
+
+Synths Strudel. (2025). Strudel. https://strudel.cc/learn/synths/
+
+Tonal Functions Strudel. (2025). Strudel. https://strudel.cc/learn/tonal/

@@ -1,0 +1,18 @@
+---
+website: https://comp.anu.edu.au/courses/comp4350/workshops/04-envelopes-note-structure/
+---
+
+# Week 4 reflection
+
+For this week’s diary, I used the sequencer we learned in class to generate a simple melody from eight MIDI notes. I experimented with different ways of applying envelopes to shape the sound beyond just controlling amplitude. 
+I spent time exploring whether an envelope must always control amplitude. To test this, I used envelopes to modulate pitch, creating percussive attacks, glides, and rising effects. This led me to refine my approach, ultimately choosing an example where the frequency of the sound is modified before being passed into the osc~ function, which added a little more variety and fun to the melody. 
+In the end, I composed a piece by passing the frequency from the MIDI notes into two different functions. The main melody is created from the osc~ function, designed with a longer attack and decay. I then used a phasor to create an electrical, rhythmic backdrop with a short decay, making the piece more engaging and textured.
+
+![Week 04 Music Diary PD Patch](figure_3.png){ width=50% }
+
+## References
+
+Really Useful Plugins. (2019, February 22). PureData tutorials - rich synthesis (2) - simple envelopes. YouTube. [https://www.youtube.com/watch?v=gqpvIwYko3o](https://www.youtube.com/watch?v=gqpvIwYko3o)  
+
+QCGInteractiveMusic. (2020b, August 24). 29. Step Sequencer in Pure Data. YouTube.  
+[https://www.youtube.com/watch?v=iwrLPnycMNs](https://www.youtube.com/watch?v=iwrLPnycMNs)

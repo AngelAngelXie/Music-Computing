@@ -1,0 +1,22 @@
+---
+website: https://comp.anu.edu.au/courses/comp4350/workshops/09-synth-design/
+---
+
+# Week 9 reflection
+
+Week 9’s diary involves two components: independent exploration on modulation and group collaboration. 
+
+In exploring dynamic modulation, I built on top of automated and randomized techniques covered in class to create more complex evolving textures. For instance, I tested LFO-driven modulation using sine.range() and tri.range() to parameters like cutoff, which converted static patterns into fluid, organic sequences. The slow LFOs on filter cutoffs create a sense of breathing movement, while the triangular wave modulation on the standalone synth’s lpf introduces unpredictability, contrasting with the smoother sine waves in the stacked sections.
+
+I also experimented with ways of building more interesting envelope-based modulation to shape filter sweeps dynamically. I added more varieties by adding conditional effects and putting more than one parameters to modulation functions. The result is a very complex single sequence whose sound changes dynamically and gives off a futuristic/space theme. 
+
+During our group session, we each took the role of drums, leads, bass. I contributed a lead track and adopted my note sequence to sound harmonious to my groupmates’. In our collaborative performance, I tried adjusting the speed, loudness, and swapped between scales to create more interesting effects.
+
+
+![Week 09 Music Diary Strudel Code](figure_3.png){ width=50% }
+
+## References
+
+Csound Strudel. (2025). Strudel. https://strudel.cc/learn/csound/
+
+Ultimate Guide: Using Low-Pass Filters in Music Production. (2024, March 20). Mix Elite. https://mixelite.com/blog/how-to-use-low-pass-filters-the-ultimate-guide-for-music-producers/

@@ -1,0 +1,22 @@
+---
+website: https://comp.anu.edu.au/courses/comp4350/workshops/03-sampling-1/
+---
+
+# Week 3 reflection
+
+This week’s diary uses audio to compose a piece about ourselves. As a computer science student, I chose to interleave a simple melody and an audio recording of someone coding. 
+
+I specifically chose a simple melody so that I can experiment with different ways of manipulating the sound of it. By layering different versions of the same melody, I am hoping it can use the sound to capture my state of mind when I become completely absorbed in my coding tasks. I spent a lot of time online trying to see the ways in which we can manipulate the same audio file to have different sound effects. For instance, I experimented with randomly playing segment pieces of the melody at one point to resemble the moments when I get streams of ideas for my work. Other concepts like tremolo or delays are used to show moments when my mind becomes cluttered. Even though I didn’t include everything I explored in the piece, this piece gave me practice in what I can do with audio manipulation.
+
+![Week 02 Music Diary PD Patch](figure_2.png){ width=50% }
+
+## References
+
+Carl Hutters. (2021, May 30). Audio processing concepts in Pure Data. YouTube.  
+[https://www.youtube.com/watch?v=1HPVLBwCqts](https://www.youtube.com/watch?v=1HPVLBwCqts)  
+
+Freesound - Keyboard Typing 1 (HHKB, Topre) by grcekh. (2020). Freesound.org.  
+[https://freesound.org/people/grcekh/sounds/546032/](https://freesound.org/people/grcekh/sounds/546032/)  
+
+Freesound - Simple_Melody_Retro_Loop_01 by orginaljun. (2020). Freesound.org.  
+[https://freesound.org/people/orginaljun/sounds/528069/](https://freesound.org/people/orginaljun/sounds/528069/)

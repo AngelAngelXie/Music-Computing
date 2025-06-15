@@ -1,0 +1,25 @@
+---
+website: https://comp.anu.edu.au/courses/comp4350/workshops/06-interfaces/
+---
+
+# Week 6 reflection
+
+In reimagining Yunkai Xu’s Week 5 patch, I tried optimizing the patch for both lay users and pure data programmers. 
+
+![My Week 06 Patch GUI](figure_gui.png){ width=50% }
+
+I started by isolating waveform-shaping logic, envelope logic, and counters into its own subpatches. Subpatch names can almost serve like comments for future programmers. Not only would be help them understand the patch logic quicker, but it would also make integrating new subpatch logics and replacing existing subpatches much easier.
+
+I wanted the patch to invite users to see the system as an exploratory instrument. To make the patch accessible to lay users, I hid the technical Pure Data logic behind an intuitive interface that I created via the canvas feature. I used colors on buttons and sliders to invite interactions. I also used number boxes, interactive arrays, and hradio to provide real-time, visual feedbacks about what changes are being applied to the current sound. 
+
+By prioritizing clarity in structure and engagmenet in interface design, I believe the patch now has much grater usability and creative potential.
+
+![Yunkai Xu's Original Week 05 Diary Patch](figure_ykx.png){ width=50% }
+
+![Subpatches in My Week 06 Patch ](figure_1.png){ width=50% }
+
+
+## References
+Igor Abdo Aguilar. (2020, August 17). Nice Pure data tutorial #1 - Making Gui-Object Externals. YouTube. https://www.youtube.com/watch?v=8z_LW7UoSS0
+
+QCGInteractiveMusic. (2020, July 25). 19. Sub Patches and Abstractions in Pure Data. YouTube. https://www.youtube.com/watch?v=9DKSo_9WiX4

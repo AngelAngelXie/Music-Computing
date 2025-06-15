@@ -1,0 +1,61 @@
+---
+website: https://comp.anu.edu.au/courses/comp4350/assessments/lens-performance/
+name: JiaXin Xie
+uid: u8153316
+title: Forest
+---
+
+# LENS Performance Documentation
+
+## Description
+
+**Forest** is a two-part generative music performance in Strudel that explores the expressive and sonic capabilities of nature-inspired synthesis. The two contrasting sections—**Raining Forest** and **Forest After Rain**—aim to immerse listeners in a rich auditory ecosystem. The performance blends compositional structure with improvisational freedom, using Strudel’s functional and declarative coding style to create a deeply textured, ambient experience.
+
+The first section, **Raining Forest**, evokes the vibrant yet chaotic soundscape of a forest under rain. This is achieved through a combination of rhythmic bass pulses, stochastic melodic sequences, water droplet-like arpeggios, and dynamic textural layering. In contrast, **Forest After Rain** represents a more introspective and mystical atmosphere—serene, yet teeming with quiet post-rain life, rendered through evolving envelopes, resonant filters, FM synthesis, and spatial modulation.
+
+This work uses a variety of synthesis and modulation tools to shape sound in musically expressive ways. These include:
+
+- **ADSR envelopes**, **low-pass filter Q controls** (`.lpq`), and **filter modulation envelopes** (`.lpenv`) to sculpt the attack and spectral shape of each sound.
+- **Pitch envelopes** (`.penv`) and **FM synthesis** (`.fm`) to introduce expressive timbral shifts and microtonal variations.
+- **Delay and phaser effects** with feedback and time controls to simulate echoes and environmental reverberation.
+- **Randomized `pick` functions** and rhythmic `when` gates to allow variation and semi-improvised recombination of motivic material.
+- **Panning automation** using `sine` functions to spatially animate voices across the stereo field.
+- **Euclidean rhythms**, stochastic note distributions, and polymetric layering to add rhythmic interest and natural irregularity.
+
+The entire piece is performed live using [Flok.cc](https://flok.cc/s/normal-aquamarine-caterpillar-875b712a), synchronized with a shared stopwatch. Performers enable and disable sections by commenting code in real-time, giving the piece a semi-improvised, collaborative structure that encourages both exploration and personal expression.
+
+**Musical form:**  
+The composition is segmented into clearly structured sections: _Intro_, _Development_, _Climax_, and _Outro_ for both movements. Within each, melodic leads and basses are crafted in **F major pentatonic**, chosen for its naturalistic, consonant quality. The motivic layering uses imitation, antiphonal response, and sequencing of melodic cells. Texture evolves through dynamic addition of parts, gain modulations, and widening spectral envelopes.
+
+**Audience experience:**  
+Listeners are invited into a world that is simultaneously playful and tranquil—where granular insects, shimmering droplets, and whirling winds coexist with melodic creatures of sine, triangle, and xylophone timbres. Performers are encouraged to explore and manipulate the code in real time, making each rendering of the forest a unique adventure.
+
+## Setup
+
+To run this performance:
+
+1. Open a browser and visit [Flok.cc](https://flok.cc/) to create a shared session with your team of performers.
+2. copy and paste the code from forest.js into the shared flok session.
+3. Create a shared stopwatch to synchronize performance time:  https://www.chronograph.io
+4. Each performer will:
+   - First, enable your assigned section at the scheduled cue. Second, mute the session before yours.
+   - Optionally experiment with the parameters (look for `// Tips:` comments in the code).
+5. Make sure your audio is routed and volume controlled appropriately.
+
+## Usage
+
+- **Timing & Roles:** Each section is labeled with timing and performer names (e.g., `Intro – Yunkai`, `Climax – Angel`).
+- **Live Editing:** Use `// Tips:` lines to guide real-time sound design changes. These include alternate `.sound()`, `.gain()`, `.pan()`, `.adsr()`, `.phaser()`, `.delay()` configurations.
+- **Improvisation:** You may explore alternate melodies and modulation settings using `.pick()`, `.every()`, `.when()`, and `.cpm()` values to reintroduce motifs and vary pacing.
+
+## Reference
+
+Audio effects Strudel. (2025). Strudel. https://strudel.cc/learn/effects
+
+Computer Says No. (n.d.). Reinbim.
+
+Dash On The Train. (n.d.). todepond.
+
+Samples Strudel. (2025). Strudel. https://strudel.cc/learn/samples/
+
+Synths Strudel. (2025). Strudel. https://strudel.cc/learn/synths/

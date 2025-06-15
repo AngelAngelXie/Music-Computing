@@ -1,0 +1,20 @@
+---
+website: https://comp.anu.edu.au/courses/comp4350/workshops/02-synthesis-1/
+---
+
+# Week 2 reflection
+
+This week, we had a brief introduction into music and how to use pd. One idea that I found particularly enlightening is when our lecturer points out that a computer music piece is not limited to our traditional impression of music with melodies and rhythms. Using pd, we can manipulate sounds in such a way that it triggers our brains to remember some symbols or moments. With the limitation of using only two distinct sounds, I drew inspiration from the above idea and created my diary piece, which intends to mimic the sound of a busy road on a rainy day.
+
+In particular, I utilized the “noise” function discussed in class and applied different filters to it to create the sound effects I like. I think the piece turned out quite successful in capturing the impression I am hoping to create. With only two sounds, I was pondering how I can add stories and nuances to the piece. Therefore, I tried manually modifying the amplitude of the two sounds, thereby adding dynamic to the sounds and hopefully inviting my listeners to imagine the scene of a rainy road with me. 
+
+![Week 02 Music Diary PD Patch](figure_1.png){ width=50% }
+
+
+## References
+
+QCGInteractiveMusic. (2020a, July 13). 10. Noise and Crackle in Pure Data. YouTube.  
+[https://www.youtube.com/watch?v=hPlCwKbRyEk](https://www.youtube.com/watch?v=hPlCwKbRyEk)  
+
+QCGInteractiveMusic. (2020b, July 24). 17. Filters in Pure Data. YouTube.  
+[https://www.youtube.com/watch?v=N4-vR5Z27iY](https://www.youtube.com/watch?v=N4-vR5Z27iY)

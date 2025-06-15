@@ -1,0 +1,48 @@
+---
+website: https://comp.anu.edu.au/courses/comp4350/assessments/portfolio/
+name: JiaXin Xie
+uid: u8153316
+---
+
+# Portfolio 2 Discussion
+
+## Learning more about music composition
+Strudel’s pre-built abstractions helped me focus more on music composition. 
+
+I have been inspired by the background music from the video game Terraria. The composition of each piece is often very simple, only consisting of a beat and two simple melodies playing in parallel. While there may be small variations added occasionally, the same notes gets played in a loop for three to four minutes. Despite the repetition, the pieces are all very effective in grabbing attention and conveying emotion. The simple, small variations that are introduced also allow it to very simplistically add affective structure to the song, taking listeners from an inviting start to an emotional peak while giving small breathers in between.
+
+Cold Front is such an example: https://www.youtube.com/watch?v=llTydG62aAA
+Acidic Lament is another such example: https://www.youtube.com/watch?v=hAcV3SW8Jrs
+
+I have tried to replicate the patterns I observed from the Terraria music during my solo performance, where I layered four simple melodies together to create my piece. At the time, however, I had to spend more time learning to create patches with interesting sound timbre myself. Now, I can use Strudel’s pre-built functions and sound sources. In my diaries, I tried to probe into music composition and explore how I can replicate different sections of song structures, like how to create build-ups to transition from intro to chorus, or how to create drops and breakdowns to give a breather in between sections. 
+
+In week 8’s diary, we create pieces that interleave drums, bass, leads, and freaky noises. In week 9, we interleave sounds created from modulation with groupmates. Both diaries gave opportunities for me to explore how the interactions between instrumental parts can create structure to music. In my week 8 diary, I explored song form by slowly adding layers and then stripping back to minimal elements. The challenge was balancing randomness with coherence—too much variation sounded disjointed, while too little felt static. Ultimately, this piece demonstrates how Strudel’s functions (euclid(), .every(), .delay(), scales) can generate dynamic, structured music through controlled randomness. In the week 9 collaboration, we quickly decided that the best form for collaborative performance was if we each controll one instrumental part. With more performers, we were able to create more interesting interleavings with more phase changes and dynamic density. 
+
+The key in both dairies was layering simplicity with complexity—grounding the piece in familiar rhythms while letting algorithms introduce surprise. During our week 9 collaboration, we observed that the key to synchronizing our piece is by unifying the tempo, manipulating the number of notes per cycle, unifying the used scale, and including transitions by gradual increase/decrease of volume and tempo. This realization inspired my LENS performance topology design. I experimented with how to pass key values such as tempo, scale type, volume, etc., between performers to create a more harmonious composition.
+
+
+## More exploration on timbre control
+While I focused more on composition, I also continued to explore how to gain more control over timbre during performance to open new creative ground that can enhance auditory interest. 
+
+In reimagining Yunkai Xu’s Week 5 patch, I emphasized usability by isolating waveform shaping, envelope logic, and counters into named subpatches—improving modularity and making the system more accessible to both lay users and Pd programmers. Through intuitive canvas-based interfaces, colored controls, and responsive visual feedback, I designed the patch to function as an exploratory instrument. This experience deepened my understanding of how clear interfaces can democratize sound control. 
+
+In parallel, working in Strudel allowed me to quickly prototype modulation ideas using built-in abstractions like sine.range() and tri.range(). Instead of building low-pass filters from scratch, I could focus on how dynamic modulation transforms static sounds into evolving textures. These tools enabled more expressive sonic gestures and deepened my appreciation for systems that support real-time experimentation.
+
+During the LENS performance design process, I’ve realized it’s even more important to create and utilize abstractions that empower performers with intuitive control over modulation and synth design. I’m currently developing a JavaScript program to send and receive messages between performers, aiming to synchronize modulation. However, it may be overwhelming to my groupmates during the performance if they must manipulate my code directly. Therefore, I was particularly inspired by Darcy Gooday’s Week 10 diary, where Pure Data was used to build a clear, visual UI for performer communication. 
+
+![Darcy Gooday's Week 10 Diary](darcy.png){ width=50% }
+
+
+This leads me to consider how Pd could control Strudel patches because the hybrid setup would let me access Strudel’s built-in synth abstractions (like fm, lpf, room) while maintaining the visual clarity of Pd. Chuang Ma’s Week 10 piece, in particular, demonstrated this idea by routing MIDI from Pd to Strudel, which has further inspired me to pursue this direction.
+
+![Chuang Ma's Week 10 Diary](chuang.png){ width=50% }
+
+## References
+
+ENNWAY! (2019a, March 11). Cold Front. YouTube. https://www.youtube.com/watch?v=llTydG62aAA
+
+ENNWAY! (2019b, May 21). Acidic Lament. YouTube. https://www.youtube.com/watch?v=hAcV3SW8Jrs
+
+Gooday, D. (n.d.). COMP-4350-2025 Week 10 Diary.
+
+Ma, C. (n.d.). COMP-4350-2025 Week 10 Diary.

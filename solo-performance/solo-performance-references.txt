@@ -1,0 +1,19 @@
+---
+website: https://comp.anu.edu.au/courses/comp4350/assessments/solo-performance/
+---
+
+# Solo Performance Notes and References
+
+## References
+
+QCGInteractiveMusic. (2020, September 3). 37. Drum Machine in Pure Data. YouTube. https://www.youtube.com/watch?v=wYlOw8YXoBs
+
+Really Useful Plugins. (2019a, February 22). PureData tutorials -  rich synthesis (1) - beyond sine tones. YouTube. https://www.youtube.com/watch?v=I88Cxi86Zu8
+
+Really Useful Plugins. (2019b, February 22). PureData tutorials -  rich synthesis (2) - simple envelopes. YouTube. https://www.youtube.com/watch?v=gqpvIwYko3o
+
+Really Useful Plugins. (2019c, February 22). PureData tutorials -  rich synthesis (3) - polyphony with the CLONE object. YouTube. https://www.youtube.com/watch?v=jGgu77pCfHU
+
+Really Useful Plugins. (2019d, August 31). PureData tutorials - rich synthesis (9) - Wavetable synthesis. YouTube. https://www.youtube.com/watch?v=4QQdAT3uxmc
+
+reallyusefulplugins. (n.d.). Really Useful Plugins - Rich Synthesis PureData Tutorials - Rich Synthesis PureData Tutorials. Rich Synthesis PureData Tutorials the Really Useful PureData Rich Synthesis Tutorial Series Can Be Found Here, on Our Youtube Channel. The Patches Themselves Are Free to Download Below. Tutorial 1 -... https://reallyusefulplugins.tumblr.com/richsynthesis

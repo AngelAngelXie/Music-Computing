@@ -1,0 +1,22 @@
+---
+website: https://comp.anu.edu.au/courses/comp4350/workshops/05-networks-collaboration/
+---
+
+# Week 5 reflection
+
+This week marked our first group assignment. After getting to know my groupmates, we decided to individually create patches before meeting up to combine them into a cohesive piece. Since I wasn’t sure what my groupmates would make, I designed four different sequencers with unique envelopes.
+
+Two of my sequencers were drum beats for the background, while the other two featured an electrical signal sound effect and a flute-like melody, adding variety to our composition. These sequencers could blend well together, providing flexibility for integration into the group piece.
+
+When we met, we listened to everyone’s patches and explored different ways of combining them. Ultimately, I chose to use only my flute-like sequencer, as it complemented my groupmates’ work best. Instead of relying on digital synchronization, we manually controlled our patches, recorded our parts individually, and Yunkai used video editing tools to compile the final piece.
+
+Although our initial patches were quite different, we made adjustments to ensure cohesion. In the future, more frequent communication during the creation process could help us craft a more unified composition.
+
+![Week 05 Music Diary PD Patch](figure_4.png){ width=50% }
+
+## References
+
+ANU Laptop Ensemble. (2023, March 16). Ensemble Diaries in Pure Data (2022). YouTube.  
+[https://www.youtube.com/watch?v=PEiIa8RfKSY](https://www.youtube.com/watch?v=PEiIa8RfKSY)  
+
+WolfSound. (2022, July 25). 8 Envelopes You MUST Know For Sound Design & Audio Programming. YouTube. [https://www.youtube.com/watch?v=06WoAY1uhbk](https://www.youtube.com/watch?v=06WoAY1uhbk)
